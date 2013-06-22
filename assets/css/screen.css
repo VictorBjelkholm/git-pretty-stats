@@ -1,1 +1,36 @@
-body{margin-bottom:100px}.header{background:#1abc9c}.header h1{color:#fff}.header h1 small{color:#8cddcd}.footer{width:100%;padding:20px;position:fixed;bottom:0;background:#ecf0f1;text-align:center}#tabs{margin-top:15px}.thumbnail{position:relative}.thumbnail h5{position:absolute;right:10px;top:0;padding:10px;background:#1abc9c;color:#fff}
+body {
+  margin-bottom: 100px; }
+
+.header {
+  background: #1abc9c; }
+  .header h1 {
+    color: white; }
+    .header h1 small {
+      color: tint(#1abc9c, 50%); }
+
+.footer {
+  width: 100%;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  background: #ecf0f1;
+  text-align: center; }
+
+#tabs {
+  margin-top: 15px; }
+
+.thumbnail {
+  position: relative; }
+  .thumbnail h5 {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    padding: 10px;
+    background: #1abc9c;
+    color: white; }
+
+.span3, .span4, .span6, .span12 {
+  margin-top: 2em; }
+
+.span3:nth-child(4n+5), .span4:nth-child(3n+4), .span6:nth-child(2n+3), .span12:nth-child(1n+2) {
+  margin-left: 0; }
